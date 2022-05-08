@@ -1,0 +1,3 @@
+[submodule "GeoChatter-Borders"]
+	path = GeoChatter-Borders
+	url = https://github.com/GeoChatter/GeoChatter-Borders.git

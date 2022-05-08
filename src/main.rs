@@ -31,7 +31,7 @@ fn main() {
 
 fn load_borders_from_git() -> Vec<(String, Geometry<f64>, Rect<f64>)> {
     let mut country_name_geometry = Vec::new();
-    for country_file in fs::read_dir("./rhinoBorderGit/BorderData").unwrap() {
+    for country_file in fs::read_dir("./GeoChatter-Borders/BorderData").unwrap() {
         // print!("{:?}", country_file);
         match country_file {
             Ok(name) => {
