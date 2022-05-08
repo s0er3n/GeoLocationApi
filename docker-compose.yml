@@ -1,0 +1,7 @@
+services:
+  api:
+    image: docker.soerensserver.xyz/geolocationapi-master:latest
+networks:
+  default:
+    external:
+      name: backend
