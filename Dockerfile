@@ -1,5 +1,4 @@
-
-FROM archlinux
+FROM archlinux:latest
 RUN pacman-key --init
 RUN pacman --noconfirm -Syu
 RUN pacman  --noconfirm -S rust libarchive pkg-config
