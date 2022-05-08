@@ -1,4 +1,4 @@
-FROM archlinux:base-devel
+FROM --platform=linux/x86_64 archlinux:base-devel
 RUN pacman-key --init
 RUN pacman --noconfirm -Syu
 RUN pacman  --noconfirm -S rust libarchive pkg-config
