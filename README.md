@@ -11,7 +11,7 @@ simple API to get metadata of country from lat and long coordinates
 
 # Test the API here: 
 
-** [http://geoapi.soerensserver.xyz/getIsoCodes?lng=12&lat=12](http://geoapi.soerensserver.xyz/getIsoCodes?lng=12&lat=12) **
+[http://geoapi.soerensserver.xyz/getIsoCodes?lng=12&lat=12](http://geoapi.soerensserver.xyz/getIsoCodes?lng=12&lat=12)
 
 
 # TODO
