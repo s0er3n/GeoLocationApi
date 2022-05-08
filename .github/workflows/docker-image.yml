@@ -40,4 +40,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            docker.soerensserver.xyz/GeoLocationApi-${{ steps.extract_branch.outputs.branch }}
+            docker.soerensserver.xyz/geolocationapi-${{ steps.extract_branch.outputs.branch }}
